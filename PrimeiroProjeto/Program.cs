@@ -3,7 +3,8 @@ string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
 //List<string> listaDasBandas = new List<string> { "U2", "The Beatles", "Nirvana" };
 
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
-bandasRegistradas.Add("Linkin Park",new List<int> { }
+bandasRegistradas.Add("Linkin Park", new List<int> { 10, 8, 6 });
+bandasRegistradas.Add("The Beatles", new List<int>());
 
 void ExibirLogo()
 {
@@ -18,6 +19,7 @@ void ExibirLogo()
 ╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝  ╚═════╝░░╚════╝░░╚═════╝░╚═╝░░╚══╝╚═════╝░
 ");
     Console.WriteLine(mensagemDeBoasVindas);
+
 }
 
 void ExibirOpcoesDoMenu()
